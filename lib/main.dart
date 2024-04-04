@@ -15,6 +15,12 @@ class MyApp extends StatelessWidget{
           titleTextStyle: TextStyle(color: Colors.white, fontSize: 24),
           backgroundColor: const Color.fromARGB(255, 92, 92, 92),
         ),
+
+        body: Container(
+          padding: EdgeInsets.all(30),
+          alignment: Alignment.bottomRight,
+          child: Icon(Icons.create),
+        ),
       ),
     );
   }
